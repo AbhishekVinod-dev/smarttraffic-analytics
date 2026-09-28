@@ -1,0 +1,13 @@
+node_modules/
+.next/
+dist/
+build/
+.expo/
+.gemini/
+*.log
+.env*
+!.env.example
+.DS_Store
+*.pem
+*.apk
+!web/public/MealUndo-MVP.apk

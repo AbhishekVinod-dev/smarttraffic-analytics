@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MealUndo",
+    "slug": "mealundo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF5DD"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mealundo.app"
+    },
+    "android": {
+      "package": "com.mealundo.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDummyKeyForMealUndoRadarTesting00"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FBF5DD"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
