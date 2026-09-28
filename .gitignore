@@ -13,3 +13,6 @@ build/
 *.pem
 *.apk
 !web/public/MealUndo-MVP.apk
+
+.vercel
+.env*
