@@ -5,6 +5,8 @@ build/
 .expo/
 .gemini/
 *.log
+*.tsbuildinfo
+.vercel/
 .env*
 !.env.example
 .DS_Store
